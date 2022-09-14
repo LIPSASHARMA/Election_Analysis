@@ -32,7 +32,7 @@ The Pypoll challenge extends the original Election Analysis and expects that the
 
 ## Election-Audit Results
 
-    ![ScreenShot](Resources/Election_Analysis_Console_Output.png)
+    ![ScreenShot](https://github.com/LIPSASHARMA/Election_Analysis/blob/main/Resources/Election_Analysis_Console_Output.png)
 
   - How many votes were cast in this congressional election?
   - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
