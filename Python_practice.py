@@ -1,9 +1,9 @@
 #print("Hello World")
 
-num_candidates = 3
-winning_percentage = 73.81
-candidate = "Diane"
-won_election = True
+#num_candidates = 3
+#winning_percentage = 73.81
+#candidate = "Diane"
+#won_election = True
 
 #counties = ["Arapahoe","Denver","Jefferson"]
 #if counties[1] == 'Denver':
@@ -57,10 +57,10 @@ won_election = True
 #for county in counties_tuples:
 #      print(counties)
 
-# counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
-# for county in counties_dict.keys():
-#     print(county)
-# print("-----------------------------------------")
+#counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+#for county in counties_dict.keys():
+# print(county)
+#print("-----------------------------------------")
 
 # for voters in counties_dict.values():
 #     print(voters)
@@ -79,12 +79,12 @@ won_election = True
 # print("-----------------------------------------")
 
 
-voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
-                {"county":"Denver", "registered_voters": 463353},
-                {"county":"Jefferson", "registered_voters": 432438}]
+#voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
+   #            {"county":"Denver", "registered_voters": 463353},
+   #            {"county":"Jefferson", "registered_voters": 432438}]
 
 #for county_dict in voting_data:
-#    print(county_dict)
+ #print(county_dict)
 #print("-----------------------------------------")
 
 #for i in range(len(voting_data)):
@@ -112,10 +112,10 @@ voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
 #print(f"I received {my_votes / total_votes * 100}% of the total votes.")
 #print("-------------------------------------------------------------------")
 
-counties_dict = {"Arapahoe": 369237, "Denver":413229, "Jefferson": 390222}
+#counties_dict = {"Arapahoe": 369237, "Denver":413229, "Jefferson": 390222}
 #for county, voters in counties_dict.items():
-#    print(county + " county has " + str(voters) + " registered voters.")
-#print("--------------------------------------------------------------------")
+    #print(county + " county has " + str(voters) + " registered voters.")
+ #print("--------------------------------------------------------------------")
 
 
 #for county, voters in counties_dict.items():
@@ -150,9 +150,16 @@ counties_dict = {"Arapahoe": 369237, "Denver":413229, "Jefferson": 390222}
 
 
 # Import the datetime class from the datetime module.
-import datetime as dt
+#import datetime as dt
 # Use the now() attribute on the datetime class to get the present time.
-now = dt.datetime.now()
+#now = dt.datetime.now()
 # Print the present time.
-print("The time right now is ", now)
+#print("The time right now is ", now)
 
+voting_data = [{"county":"Arapahoe", "registered_voters": 422829}, {"county":"Denver", "registered_voters": 463353}, {"county":"Jefferson", "registered_voters": 432438}]
+
+for counties in voting_data:
+        #print(f"{counties} county has {votes} registered voters.")
+        #print(counties['county'])
+        print(counties['registered_voters'])
+        #print(f"{counties['county']} county has {counties['registered_voters']} registerd voters.")
