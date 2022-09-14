@@ -163,3 +163,4 @@ for counties in voting_data:
         #print(counties['county'])
         print(counties['registered_voters'])
         #print(f"{counties['county']} county has {counties['registered_voters']} registerd voters.")
+        
